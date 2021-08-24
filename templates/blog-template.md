@@ -1,8 +1,7 @@
-# Blog Title
+# Blog Title - 2021/02/02
 
 ## Description
 
-### 2021/02/02
 
 ```js
     console.log("Hello World")

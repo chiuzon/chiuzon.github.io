@@ -1,4 +1,4 @@
-# Deflationary ShitMoon Token Audit : 2021/02/02
+# Deflationary ShitMoon Token Audit - 2021/02/02
 
 ## Requested by Name
 
