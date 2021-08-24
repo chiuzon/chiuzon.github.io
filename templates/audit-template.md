@@ -7,6 +7,10 @@
    <TODO: Add disclaimer>
 ```
 
+| Destruction Level | Contract  | Lines                 |
+| ----------------- | --------- | --------------------- |
+| High              | ERC20.sol | <23 -> 40> <21 -> 23> |
+
 | Contracts | Explorer Link | Github     |
 | --------- | ------------- | ---------- |
 | ERC20     | etherscan.com | github.com |
