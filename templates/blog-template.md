@@ -2,7 +2,6 @@
 
 ## Description
 
-
 ```js
     console.log("Hello World")
 ```

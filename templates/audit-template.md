@@ -19,6 +19,10 @@
 
 Does transfers bla bla bla bla template, beep boop , pickle rick
 
+## IERC20.sol
+
+[OpenZeppeling Standard ERC20 Interface](https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/interfaces/IERC20.sol)
+
 ## ERC20.sol
 
 | Function Name | Type | Modifiers | Return type | Vulnerable |
