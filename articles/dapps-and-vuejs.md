@@ -4,7 +4,7 @@ Recently I had the chance of using VueJS and Ethers.js to build some decentraliz
 
 Here some interesting things about Ethers.js (It can apply to web3js too) and VueJS :
 
-## [1]: You can't use `data()` to store the provider
+## 1 You can't use `data()` to store the provider
 
 You actually need to store it without initializing it in `data()`. The problem is that vue wraps the variable inside a proxy object so when you want to call a method you can't because the proxy doesn't have that method, the proxy wrapped object has that method too.
 
@@ -21,8 +21,12 @@ bla = {
 }
 ```
 
-## [2]: Don't use `data()` to store your contract instances
+## 2 Don't use `data()` to store your contract instances
 
+As in the previous point, storing contracts inside `data()` properties isn't going to work. But don't worry the solution is basically the same. Create and initialize them in `created()`.
 
+## 3 Use computed to create your contract based on dynamic variables such as `chainId`
 
-## [3]: Use computed to create your contract based on dynamic variables such as `chainId`
+Another way to initialize and use contract based on dynamic variables or just use them statically is to use computed properties.
+
+Be aware that if your use a reactive property your computed property is going to update.
