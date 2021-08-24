@@ -1,7 +1,4 @@
----
-layout: post
-title: Blogging Like a Hacker
----
+
 
 # Dapps and VueJS - 2021/08/24
 
