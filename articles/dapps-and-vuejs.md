@@ -4,7 +4,7 @@ Recently I had the chance of using VueJS and Ethers.js to build some decentraliz
 
 Here some interesting things about Ethers.js (It can apply to web3js too) and VueJS :
 
-[1]: You can't use `data()` to store the provider. You actually need to store it without initializing it in `data()`
+## [1]: You can't use `data()` to store the provider. You actually need to store it without initializing it in `data()`
 
 ```js
 bla = {
