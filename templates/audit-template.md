@@ -1,8 +1,6 @@
-# Blog Title
+# Deflationary ShitMoon Token Audit : 2021/02/02
 
-## Requested by Name [Twitter]("//")
-
-### Date: 2021/02/02
+## Requested by Name
 
 ```c
    Disclaimer:
@@ -17,4 +15,8 @@
 
 Does transfers bla bla bla bla template, beep boop , pickle rick
 
-### ERC20.sol
+## ERC20.sol
+
+| Function Name | Type | Modifiers | Return type |
+| ------------- | ---- | --------- | ----------- |
+| balanceOf     | view | none      | uint256     |
