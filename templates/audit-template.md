@@ -9,7 +9,7 @@
 
 | Destruction Level | Contract  | Lines                 |
 | ----------------- | --------- | --------------------- |
-| High              | ERC20.sol | <23 -> 40> <21 -> 23> |
+| High              | ERC20.sol | 1,23 -> 40 ; 21 -> 23 |
 
 | Contracts | Explorer Link | Github     |
 | --------- | ------------- | ---------- |
@@ -21,6 +21,6 @@ Does transfers bla bla bla bla template, beep boop , pickle rick
 
 ## ERC20.sol
 
-| Function Name | Type | Modifiers | Return type |
-| ------------- | ---- | --------- | ----------- |
-| balanceOf     | view | none      | uint256     |
+| Function Name | Type | Modifiers | Return type | Vulnerable |
+| ------------- | ---- | --------- | ----------- | ---------- |
+| balanceOf     | view | none      | uint256     | False      |
