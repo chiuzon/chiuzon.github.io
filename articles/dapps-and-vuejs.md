@@ -25,8 +25,7 @@ bla = {
 
 As in the previous point, storing contracts inside `data()` properties isn't going to work. But don't worry the solution is basically the same. Create and initialize them in `created()`.
 
-## 3 Use computed to create your contract based on dynamic variables such as `chainId`
+## 3 Use computed properties to create your contract instances
 
-Another way to initialize and use contract based on dynamic variables or just use them statically is to use computed properties.
-
-Be aware that if your use a reactive property your computed property is going to update.
+Another way to initialize your contract instance is to use computed properties.
+Be aware that if your use a reactive property , your computed property is going to update, but if you don't have any reactive property your return gets cached so if you call a computed property that returns an contract instance it shouldn't a performance problem.
