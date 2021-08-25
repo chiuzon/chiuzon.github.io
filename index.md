@@ -1,1 +1,5 @@
-# Is this index?
+---
+title:  "This is title"
+---
+
+# This is content
