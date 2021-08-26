@@ -27,13 +27,12 @@
 
 .article {
   margin-top: 1rm;
+
+  border-style: solid;
   border-bottom-color: #333;
   border-bottom-width: 1px;
 
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-.article .col-12 {
 }

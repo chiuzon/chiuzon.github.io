@@ -7,16 +7,12 @@ layout: default
 
 {% for post in site.posts %}
   <a href="{{post.url}}" class="article">
-    <div> 
       <h1>
         {{post.title}} 
       </h1>
-    </div>
-    <div>
       <p>
         {{post.content | truncatewords: 20}}
       </p>
-    </div>
   </a>
 
 {% endfor %}
