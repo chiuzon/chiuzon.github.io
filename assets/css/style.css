@@ -17,8 +17,7 @@
   --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
 }
 
-.nav .brand,
-.nav div {
+.brand.no {
   padding: 0 0;
 }
 

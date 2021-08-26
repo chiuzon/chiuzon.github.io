@@ -1,8 +1,8 @@
 ---
-title:  "This is title"
+title:  "Articles"
 ---
 
-# This is content
+# Articles
 
 <ul>
   {% for post in site.posts %}
