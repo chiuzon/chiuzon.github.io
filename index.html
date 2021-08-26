@@ -4,13 +4,21 @@ layout: default
 <!DOCTYPE html>
 <html>
   <body>
-    {% for post in site.posts %}
+
+{% for post in site.posts %}
   <a href="{{post.url}}" class="row">
-    <div class="col-4"> {{post.title}} </div>
+    <div class="col-4"> 
+      <h1>
+        {{post.title}} 
+      </h1>
+    </div>
     <div class="col-12">
-      {{post.content | truncatewords: 20}}
+      <p>
+        {{post.content | truncatewords: 20}}
+      </p>
     </div>
   </a>
+
 {% endfor %}
   </body>
 </html>

@@ -12,7 +12,7 @@
   --grid-maxWidth: 120rem;
   --grid-gutter: 2rem;
   --font-size: 1.6rem;
-  --font-color: #333333;
+  --font-color: #333;
   --font-family-sans: Roboto, sans-serif;
   --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
 }
@@ -23,4 +23,10 @@
 
 .brand {
   font-weight: bold;
+}
+
+.article {
+  margin-top: 1rm;
+  border-bottom-color: #333;
+  border-bottom-width: 1px;
 }
