@@ -1,8 +1,7 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "Dapps and VueJS"
+description: "Vue is easy but it doesn't play that nice"
 ---
-
-# Dapps and VueJS - 2021/08/24
 
 Recently I had the chance of using VueJS and Ethers.js to build some decentralized shit. Normally I'm a React/Svelte guy, I never used VueJS for doing any dapps but this time I wanted something more light and easier to setup. Svelte is easier to setup too, but droping ``<script src="https://unpkg.com/vue@next"></script>`` inside a html file is much easier.
 
