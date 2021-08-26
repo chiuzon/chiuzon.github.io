@@ -7,7 +7,7 @@ The only reason I used Vue is that you can just drop the script tag inside a htm
 
 Here is what I found using vue and ethers.js.
 
-## 1. You can't use `data()` to store the provider or a contract instance
+### 1. You can't use `data()` to store the provider or a contract instance
 
 Instead you need to initialize a property in a method like `created()` without declaring it inside the `data()` method. Is weird, I know!
 
@@ -22,7 +22,7 @@ const App = {
 }
 ```
 
-## 2. Use computed properties to create a contract instance
+### 2. Use computed properties to create a contract instance
 
 The best way that I found to create contract instances is to use computed properties, initializing them inside `created()` creates useless boilerplate. Computed properties are cached so you don't need to worry about performances.
 
@@ -35,7 +35,7 @@ const App = {
 }
 ```
 
-## 3. Fetching data from the blockchain periodically
+### 3. Fetching data from the blockchain periodically
 
 The dapp was interacting with a smart contract deployed on BSC, normally BSC has a block time of 3 seconds so every 3 seconds I had to fetch new data. Found a nice way to fetch data periodically without creating memory leaks.
 
