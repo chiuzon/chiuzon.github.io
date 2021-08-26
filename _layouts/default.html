@@ -4,17 +4,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/style.css">
   </head>
   <body>
-   
-    <main class="container">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-left">
+          <div class="brand">Chiuzon</div>
+        </div>
+        <div class="nav-right">
+          <div class="tabs">
+            <a>Articles</a>
+            <a>Audits</a>
+          </div>
+        </div>
+      </nav>
+
       <section>
         {{ content }}
       </section>
-    </main>
-
-
-    
+    </div>
   </body>
 </html>

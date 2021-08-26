@@ -1,5 +1,27 @@
-body {
-  background-color: #eee;
-  font-family: "Roboto", sans-serif;
-  color: #333;
+@import url("../../assets/css/chota.min.css");
+
+:root {
+  --bg-color: #eee;
+  --bg-secondary-color: #f3f3f6;
+  --color-primary: #14854f;
+  --color-lightGrey: #d2d6dd;
+  --color-grey: #747681;
+  --color-darkGrey: #3f4144;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --grid-maxWidth: 120rem;
+  --grid-gutter: 2rem;
+  --font-size: 1.6rem;
+  --font-color: #333333;
+  --font-family-sans: Roboto, sans-serif;
+  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+}
+
+.nav .brand,
+.nav div {
+  padding: 0 0;
+}
+
+.brand {
+  font-weight: bold;
 }
