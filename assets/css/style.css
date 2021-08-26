@@ -35,3 +35,12 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+.article h1 {
+  margin-bottom: 0.1rem;
+  color: #333;
+}
+
+.article .description {
+  color: #a3a3a3;
+}
