@@ -6,6 +6,9 @@
     <title>{{ page.title }} / chiuzon</title>
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description " content="{{content | truncatewords: 25}}" />
+    <meta name="description" content="{{content | truncatewords: 25}}">
   </head>
   <body>
     <div class="container">
