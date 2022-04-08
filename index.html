@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>chiuzon</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <script src="./app.js"></script>
+  </head>
+  <body x-data="{constants: APP_CONSTANTS}">
+    <h1 class="title">Chiuzon</h1>
+    <div>
+      <span><a x-bind:href="constants.GITHUB_LINK">Github</a></span>
+      <span><a x-bind:href="constants.TWITTER_LINK">Twitter</a></span>
+    </div>
+    <p>Frontend Development & Web3 Enthusiasm</div>
+    <div class="content">
+    <h2>Open Source Projects</h2>
+    <ul>
+        <template x-if="constants.OSS_PROJECTS.length > 0">
+            <template x-for="project in constants.OSS_PROJECTS">
+                <li>
+                    <a x-bind:href="project.href" x-text="project.title"></a>/ <span x-text="project.description">AA</span>
+                </li>
+            </template>
+        </template>
+        <template x-if="constants.OSS_PROJECTS.length < 0">
+            <h3>:(</h3>
+        </template>
+    </ul>
+    </div>
+
+    <div class="content">
+    <h2>Publications</h2>
+    <ul>
+        <template x-if="constants.PUBLICATIONS.length > 0">
+            <template x-for="pub in constants.PUBLICATIONS">
+                <li>
+                    <a x-bind:href="pub.href" x-text="pub.title"></a>/ <span x-text="pub.description"></span>
+                </li>
+            </template>
+        </template>
+        <template x-if="constants.PUBLICATIONS.length === 0">
+            <h3>Nothing yet, someone is lazy!</h3>
+        </template>
+    </ul>
+    </div>
+ 
+  </body>
+</html>

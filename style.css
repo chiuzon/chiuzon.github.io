@@ -1,0 +1,33 @@
+body {
+  background-color: wheat;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+a {
+  color: rgb(24, 24, 24);
+}
+
+a:hover {
+  color: rgb(37, 37, 37);
+}
+
+a:active {
+  color: rgb(138, 138, 138);
+}
+
+.title {
+  text-decoration: double black;
+  text-decoration-line: underline overline;
+}
